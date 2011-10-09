@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E31E860A14417484005761A1 /* BSONCodec.m in Sources */ = {isa = PBXBuildFile; fileRef = E31E860914417484005761A1 /* BSONCodec.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E3CC85A81440BF6600E2A9D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CC85A71440BF6600E2A9D1 /* UIKit.framework */; };
+		E3CC85AA1440BF6600E2A9D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CC85A91440BF6600E2A9D1 /* Foundation.framework */; };
+		E3CC85AC1440BF6600E2A9D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CC85AB1440BF6600E2A9D1 /* CoreGraphics.framework */; };
+		E3CC85B21440BF6600E2A9D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3CC85B01440BF6600E2A9D1 /* InfoPlist.strings */; };
+		E3CC85B41440BF6600E2A9D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CC85B31440BF6600E2A9D1 /* main.m */; };
+		E3CC85B81440BF6600E2A9D1 /* ZeroMQ_Monitor_IOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CC85B71440BF6600E2A9D1 /* ZeroMQ_Monitor_IOSAppDelegate.m */; };
+		E3CC85BB1440BF6600E2A9D1 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3CC85B91440BF6600E2A9D1 /* MainStoryboard_iPhone.storyboard */; };
+		E3CC85BE1440BF6600E2A9D1 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3CC85BC1440BF6600E2A9D1 /* MainStoryboard_iPad.storyboard */; };
+		E3CC85C11440BF6600E2A9D1 /* ZeroMQ_Monitor_IOSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CC85C01440BF6600E2A9D1 /* ZeroMQ_Monitor_IOSViewController.m */; };
+		E3CC85CD1440C00200E2A9D1 /* MeepsZMQ.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CC85CC1440C00200E2A9D1 /* MeepsZMQ.m */; };
+		E3CC85D11440C9FE00E2A9D1 /* libzmq.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CC85D01440C9FE00E2A9D1 /* libzmq.a */; };
+		E3CC85F91440D52A00E2A9D1 /* ZMQContext.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CC85F51440D52900E2A9D1 /* ZMQContext.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E3CC85FA1440D52A00E2A9D1 /* ZMQSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CC85F81440D52A00E2A9D1 /* ZMQSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E31E857A14414319005761A1 /* chat_message.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = chat_message.proto; sourceTree = "<group>"; };
+		E31E857C14414459005761A1 /* ChatMessage.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatMessage.pb.h; sourceTree = "<group>"; };
+		E31E857D14414459005761A1 /* ChatMessage.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatMessage.pb.m; sourceTree = "<group>"; };
+		E31E86011441504A005761A1 /* ProtocolBuffers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProtocolBuffers.h; path = "../../../../third-party/ProtocolBuffers-2.2.0-Source/objectivec/Classes/ProtocolBuffers.h"; sourceTree = "<group>"; };
+		E31E860814417484005761A1 /* BSONCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSONCodec.h; sourceTree = "<group>"; };
+		E31E860914417484005761A1 /* BSONCodec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSONCodec.m; sourceTree = "<group>"; };
+		E3CC85A31440BF6600E2A9D1 /* ZeroMQ Monitor IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZeroMQ Monitor IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3CC85A71440BF6600E2A9D1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E3CC85A91440BF6600E2A9D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E3CC85AB1440BF6600E2A9D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E3CC85AF1440BF6600E2A9D1 /* ZeroMQ Monitor IOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZeroMQ Monitor IOS-Info.plist"; sourceTree = "<group>"; };
+		E3CC85B11440BF6600E2A9D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E3CC85B31440BF6600E2A9D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E3CC85B51440BF6600E2A9D1 /* ZeroMQ Monitor IOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZeroMQ Monitor IOS-Prefix.pch"; sourceTree = "<group>"; };
+		E3CC85B61440BF6600E2A9D1 /* ZeroMQ_Monitor_IOSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZeroMQ_Monitor_IOSAppDelegate.h; sourceTree = "<group>"; };
+		E3CC85B71440BF6600E2A9D1 /* ZeroMQ_Monitor_IOSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZeroMQ_Monitor_IOSAppDelegate.m; sourceTree = "<group>"; };
+		E3CC85BA1440BF6600E2A9D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		E3CC85BD1440BF6600E2A9D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		E3CC85BF1440BF6600E2A9D1 /* ZeroMQ_Monitor_IOSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZeroMQ_Monitor_IOSViewController.h; sourceTree = "<group>"; };
+		E3CC85C01440BF6600E2A9D1 /* ZeroMQ_Monitor_IOSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZeroMQ_Monitor_IOSViewController.m; sourceTree = "<group>"; };
+		E3CC85CB1440C00200E2A9D1 /* MeepsZMQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeepsZMQ.h; sourceTree = "<group>"; };
+		E3CC85CC1440C00200E2A9D1 /* MeepsZMQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeepsZMQ.m; sourceTree = "<group>"; };
+		E3CC85D01440C9FE00E2A9D1 /* libzmq.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzmq.a; sourceTree = "<group>"; };
+		E3CC85F41440D52900E2A9D1 /* ZMQContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMQContext.h; sourceTree = "<group>"; };
+		E3CC85F51440D52900E2A9D1 /* ZMQContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMQContext.m; sourceTree = "<group>"; };
+		E3CC85F61440D52900E2A9D1 /* ZMQObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMQObjC.h; sourceTree = "<group>"; };
+		E3CC85F71440D52A00E2A9D1 /* ZMQSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMQSocket.h; sourceTree = "<group>"; };
+		E3CC85F81440D52A00E2A9D1 /* ZMQSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMQSocket.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3CC85A01440BF6600E2A9D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3CC85A81440BF6600E2A9D1 /* UIKit.framework in Frameworks */,
+				E3CC85AA1440BF6600E2A9D1 /* Foundation.framework in Frameworks */,
+				E3CC85AC1440BF6600E2A9D1 /* CoreGraphics.framework in Frameworks */,
+				E3CC85D11440C9FE00E2A9D1 /* libzmq.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E31E8579144142F8005761A1 /* proto */ = {
+			isa = PBXGroup;
+			children = (
+				E31E857A14414319005761A1 /* chat_message.proto */,
+			);
+			name = proto;
+			sourceTree = "<group>";
+		};
+		E31E857F1441445F005761A1 /* Protobuf Messages */ = {
+			isa = PBXGroup;
+			children = (
+				E31E857C14414459005761A1 /* ChatMessage.pb.h */,
+				E31E857D14414459005761A1 /* ChatMessage.pb.m */,
+			);
+			name = "Protobuf Messages";
+			sourceTree = "<group>";
+		};
+		E31E860714417475005761A1 /* BSON */ = {
+			isa = PBXGroup;
+			children = (
+				E31E860814417484005761A1 /* BSONCodec.h */,
+				E31E860914417484005761A1 /* BSONCodec.m */,
+			);
+			name = BSON;
+			sourceTree = "<group>";
+		};
+		E3CC85981440BF6600E2A9D1 = {
+			isa = PBXGroup;
+			children = (
+				E3CC85AD1440BF6600E2A9D1 /* ZeroMQ Monitor IOS */,
+				E3CC85A61440BF6600E2A9D1 /* Frameworks */,
+				E3CC85A41440BF6600E2A9D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3CC85A41440BF6600E2A9D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3CC85A31440BF6600E2A9D1 /* ZeroMQ Monitor IOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3CC85A61440BF6600E2A9D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3CC85D01440C9FE00E2A9D1 /* libzmq.a */,
+				E3CC85A71440BF6600E2A9D1 /* UIKit.framework */,
+				E3CC85A91440BF6600E2A9D1 /* Foundation.framework */,
+				E3CC85AB1440BF6600E2A9D1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3CC85AD1440BF6600E2A9D1 /* ZeroMQ Monitor IOS */ = {
+			isa = PBXGroup;
+			children = (
+				E31E860714417475005761A1 /* BSON */,
+				E31E86011441504A005761A1 /* ProtocolBuffers.h */,
+				E31E857F1441445F005761A1 /* Protobuf Messages */,
+				E3CC85F41440D52900E2A9D1 /* ZMQContext.h */,
+				E3CC85F51440D52900E2A9D1 /* ZMQContext.m */,
+				E3CC85F61440D52900E2A9D1 /* ZMQObjC.h */,
+				E3CC85F71440D52A00E2A9D1 /* ZMQSocket.h */,
+				E3CC85F81440D52A00E2A9D1 /* ZMQSocket.m */,
+				E3CC85B61440BF6600E2A9D1 /* ZeroMQ_Monitor_IOSAppDelegate.h */,
+				E3CC85B71440BF6600E2A9D1 /* ZeroMQ_Monitor_IOSAppDelegate.m */,
+				E3CC85B91440BF6600E2A9D1 /* MainStoryboard_iPhone.storyboard */,
+				E3CC85BC1440BF6600E2A9D1 /* MainStoryboard_iPad.storyboard */,
+				E3CC85BF1440BF6600E2A9D1 /* ZeroMQ_Monitor_IOSViewController.h */,
+				E3CC85C01440BF6600E2A9D1 /* ZeroMQ_Monitor_IOSViewController.m */,
+				E3CC85AE1440BF6600E2A9D1 /* Supporting Files */,
+				E3CC85CB1440C00200E2A9D1 /* MeepsZMQ.h */,
+				E3CC85CC1440C00200E2A9D1 /* MeepsZMQ.m */,
+			);
+			path = "ZeroMQ Monitor IOS";
+			sourceTree = "<group>";
+		};
+		E3CC85AE1440BF6600E2A9D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E31E8579144142F8005761A1 /* proto */,
+				E3CC85AF1440BF6600E2A9D1 /* ZeroMQ Monitor IOS-Info.plist */,
+				E3CC85B01440BF6600E2A9D1 /* InfoPlist.strings */,
+				E3CC85B31440BF6600E2A9D1 /* main.m */,
+				E3CC85B51440BF6600E2A9D1 /* ZeroMQ Monitor IOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3CC85A21440BF6600E2A9D1 /* ZeroMQ Monitor IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3CC85C41440BF6600E2A9D1 /* Build configuration list for PBXNativeTarget "ZeroMQ Monitor IOS" */;
+			buildPhases = (
+				E3CC859F1440BF6600E2A9D1 /* Sources */,
+				E3CC85A01440BF6600E2A9D1 /* Frameworks */,
+				E3CC85A11440BF6600E2A9D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZeroMQ Monitor IOS";
+			productName = "ZeroMQ Monitor IOS";
+			productReference = E3CC85A31440BF6600E2A9D1 /* ZeroMQ Monitor IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3CC859A1440BF6600E2A9D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = seanzehnder.com;
+			};
+			buildConfigurationList = E3CC859D1440BF6600E2A9D1 /* Build configuration list for PBXProject "ZeroMQ Monitor IOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E3CC85981440BF6600E2A9D1;
+			productRefGroup = E3CC85A41440BF6600E2A9D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3CC85A21440BF6600E2A9D1 /* ZeroMQ Monitor IOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3CC85A11440BF6600E2A9D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3CC85B21440BF6600E2A9D1 /* InfoPlist.strings in Resources */,
+				E3CC85BB1440BF6600E2A9D1 /* MainStoryboard_iPhone.storyboard in Resources */,
+				E3CC85BE1440BF6600E2A9D1 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3CC859F1440BF6600E2A9D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3CC85B41440BF6600E2A9D1 /* main.m in Sources */,
+				E3CC85B81440BF6600E2A9D1 /* ZeroMQ_Monitor_IOSAppDelegate.m in Sources */,
+				E3CC85C11440BF6600E2A9D1 /* ZeroMQ_Monitor_IOSViewController.m in Sources */,
+				E3CC85CD1440C00200E2A9D1 /* MeepsZMQ.m in Sources */,
+				E3CC85F91440D52A00E2A9D1 /* ZMQContext.m in Sources */,
+				E3CC85FA1440D52A00E2A9D1 /* ZMQSocket.m in Sources */,
+				E31E860A14417484005761A1 /* BSONCodec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E3CC85B01440BF6600E2A9D1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3CC85B11440BF6600E2A9D1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E3CC85B91440BF6600E2A9D1 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3CC85BA1440BF6600E2A9D1 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E3CC85BC1440BF6600E2A9D1 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3CC85BD1440BF6600E2A9D1 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3CC85C21440BF6600E2A9D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3CC85C31440BF6600E2A9D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3CC85C51440BF6600E2A9D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZeroMQ Monitor IOS/ZeroMQ Monitor IOS-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/lib,
+				);
+				INFOPLIST_FILE = "ZeroMQ Monitor IOS/ZeroMQ Monitor IOS-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/zeromq/2.1.10/lib,
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E3CC85C61440BF6600E2A9D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZeroMQ Monitor IOS/ZeroMQ Monitor IOS-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/lib,
+				);
+				INFOPLIST_FILE = "ZeroMQ Monitor IOS/ZeroMQ Monitor IOS-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/zeromq/2.1.10/lib,
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3CC859D1440BF6600E2A9D1 /* Build configuration list for PBXProject "ZeroMQ Monitor IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3CC85C21440BF6600E2A9D1 /* Debug */,
+				E3CC85C31440BF6600E2A9D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3CC85C41440BF6600E2A9D1 /* Build configuration list for PBXNativeTarget "ZeroMQ Monitor IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3CC85C51440BF6600E2A9D1 /* Debug */,
+				E3CC85C61440BF6600E2A9D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3CC859A1440BF6600E2A9D1 /* Project object */;
+}

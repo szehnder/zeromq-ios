@@ -1,0 +1,9 @@
+package com.foo;
+
+option java_package = "com.foo.tutorial";
+option java_outer_classname = "ChatMessageProtos";
+
+message ChatMessage {
+required string topic = 1;
+required string body = 2;
+}
